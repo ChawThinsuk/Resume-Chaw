@@ -1,4 +1,10 @@
 import React from "react";
+import circle from '../../image/circle-icon.png'
+import agency from '../../image/agency-web.jpg'
+import agency from '../../image/ photography-website.jpg'
+import resume from 'resume-pic.jpg';
+
+
 
 const container = "flex flex-row justify-center text-start mt-[50px] gap-[50px] max-lg:flex-col items-center";
 const portfolioBox = "flex justify-center flex-col relative items-center w-[347px] h-[266px] mt-[18px] rounded-[10px] shadow-lg ";
@@ -16,7 +22,7 @@ function MyPortfolio() {
         <div className={portfolioBox}>
           <div className="flex relative flex-col w-full pl-[17px]">
             <img
-              src="../image/circle-icon.png"
+              src={circle}
               className={circle}
             />
             <div className="w-[175px] h-[47px] mb-[10px]">
@@ -26,7 +32,7 @@ function MyPortfolio() {
           </div>
           <div className="flex relative w-full mt-[10px]">
             <img
-              src="../image/agency-web.jpg"
+              src={agency}
               className={image}
             />
           </div>
@@ -34,7 +40,7 @@ function MyPortfolio() {
         <div className={portfolioBox}>
           <div className="flex relative flex-col w-full pl-[17px]">
             <img
-              src="../image/circle-icon.png"
+              src={circle}
               className={circle}
             />
             <div className="w-[175px] h-[47px] mb-[10px]">
@@ -44,7 +50,7 @@ function MyPortfolio() {
           </div>
           <div className="flex relative w-full mt-[10px]">
             <img
-              src="../image/photography-website.jpg"
+              src={photo}
               className={image}
             />
           </div>
@@ -52,7 +58,7 @@ function MyPortfolio() {
         <div className={portfolioBox}>
           <div className="flex relative flex-col w-full pl-[17px]">
             <img
-              src="../image/circle-icon.png"
+              src={circle}
               className={circle}
             />
             <div className="w-[175px] h-[47px] mb-[10px]">
@@ -62,7 +68,7 @@ function MyPortfolio() {
           </div>
           <div className="flex relative w-full mt-[10px]">
             <img
-              src="../image/resume-pic.jpg"
+              src={resume}
               className={image}
             />
           </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
+import nav from '../../image/navbar-icon.png'
+import x from '../../image/x-icon.png'
 
 
 function Navbar() {
   const navItem = "hover:text-[#CACACA] scroll-smooth"
   const [open,setOpen] = useState(false)
 
-  const nav = "../image/navbar-icon.png";
-  const x = "../image/x-icon.png";
   return (
     <>
     <nav className="w-full flex justify-between items-center mt-[30px] px-[12%] mb-[40px]">
