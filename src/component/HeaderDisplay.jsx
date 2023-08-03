@@ -1,5 +1,5 @@
 import React from "react"
-import header from "../image/header.png"
+import header from "../image/Header.png"
 function HeaderDisplay () {
     return (
         <div id="about" className="w-full flex lg:flex-row justify-center lg-mt-[60px] gap-[70px] max-lg:flex-col-reverse max-lg:items-center">
