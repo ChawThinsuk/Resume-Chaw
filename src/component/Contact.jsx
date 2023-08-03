@@ -1,8 +1,8 @@
 import React from "react";
-import github from '../../image/github-icon.png';
-import instagram from '../../image/instagram-logo.png';
-import gmail from '../../image/gmail-logo.png';
-import facebook from '../../image/facebook-icon.png';
+import github from '../image/github-icon.png';
+import instagram from '../image/instagram-logo.png';
+import gmail from '../image/gmail-logo.png';
+import facebook from '../image/facebook-icon.png';
 
 const contactBox = "flex flex-col justify-center";
 const container =
