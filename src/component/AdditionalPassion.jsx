@@ -1,7 +1,7 @@
 import React from "react"
-import front from '../../image/front-end-icon.png'
-import back from '../../image/back-end-icon.png'
-import ui from '../../image/Ui-Ux-icon.png'
+import front from '../image/front-end-icon.png'
+import back from '../image/back-end-icon.png'
+import ui from '../image/Ui-Ux-icon.png'
 
 
 const header = "flex justify-center text-[35px] font-normal";

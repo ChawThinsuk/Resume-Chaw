@@ -1,8 +1,8 @@
 import React from "react";
-import circle from '../../image/circle-icon.png'
-import agency from '../../image/agency-web.jpg'
-import agency from '../../image/ photography-website.jpg'
-import resume from 'resume-pic.jpg';
+import circleIcon from '../image/circle-icon.png'
+import agency from '../image/agency-web.png'
+import photo from '../image/photography-website.png'
+import resume from '../image/resume-pic.png';
 
 
 
@@ -22,7 +22,7 @@ function MyPortfolio() {
         <div className={portfolioBox}>
           <div className="flex relative flex-col w-full pl-[17px]">
             <img
-              src={circle}
+              src={circleIcon}
               className={circle}
             />
             <div className="w-[175px] h-[47px] mb-[10px]">
@@ -40,7 +40,7 @@ function MyPortfolio() {
         <div className={portfolioBox}>
           <div className="flex relative flex-col w-full pl-[17px]">
             <img
-              src={circle}
+              src={circleIcon}
               className={circle}
             />
             <div className="w-[175px] h-[47px] mb-[10px]">
@@ -58,7 +58,7 @@ function MyPortfolio() {
         <div className={portfolioBox}>
           <div className="flex relative flex-col w-full pl-[17px]">
             <img
-              src={circle}
+              src={circleIcon}
               className={circle}
             />
             <div className="w-[175px] h-[47px] mb-[10px]">

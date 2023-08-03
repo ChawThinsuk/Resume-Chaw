@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import nav from '../../image/navbar-icon.png'
-import x from '../../image/x-icon.png'
+import nav from '../image/navbar-icon.png'
+import x from '../image/x-icon.png'
 
 
 function Navbar() {

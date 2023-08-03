@@ -1,4 +1,5 @@
 import React from "react"
+import header from "../image/header.png"
 function HeaderDisplay () {
     return (
         <div id="about" className="w-full flex lg:flex-row justify-center lg-mt-[60px] gap-[70px] max-lg:flex-col-reverse max-lg:items-center">
@@ -11,7 +12,7 @@ function HeaderDisplay () {
                 </div>         
             </div>
             <div className="flex flex-none w-[512px] h-[366px] lg:mr-[140px] justify-center items-center">
-                <img src="../image/header.png" className="w-[512px] h-[366px] bg-contain"/>
+                <img src={header} className="w-[512px] h-[366px] bg-contain"/>
             </div>
             <div></div>
         </div>
